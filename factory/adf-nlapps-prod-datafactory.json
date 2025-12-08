@@ -1,0 +1,17 @@
+{
+	"name": "adf-nlapps-prod-datafactory",
+	"properties": {
+		"globalParameters": {
+			"gp_powerbi_tenant_id": {
+				"type": "String",
+				"value": "https://kv-nlapps-prod-keyvault.vault.azure.net/secrets/powerbi-tenant-id/?api-version=7.1"
+			}
+		}
+	},
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "af0d9362-91e5-4449-9be1-e42b8b2c6c30",
+		"tenantId": "578e8159-3cd3-4036-9b16-eca64560a31c"
+	}
+}
